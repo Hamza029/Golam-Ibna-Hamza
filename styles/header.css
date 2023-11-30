@@ -1,0 +1,43 @@
+.nav-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffff00;
+  align-items: stretch;
+  height: 50px;
+  font-weight: 500;
+}
+
+.right-section, .left-section {
+  display: flex;
+}
+
+.right-section {
+  margin-right: 30px;
+}
+
+.left-section {
+  margin-left: 30px;
+}
+
+.right-section a, .left-section a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  
+  display: flex;
+
+  transition: background-color .3s;
+}
+
+.right-section a:hover, .left-section a:hover {
+  background-color: #e6e600;
+}
