@@ -10,23 +10,24 @@
     rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
   <title>Golam Ibna Hamza | Portfolio</title>
 </head>
 
 <body>
 
   <div class="nav-container">
-    <div class="nav">
+    <div onclick="goToSection" class="nav">
       <div class="left-section">
         <a href="#home">
           <p>Home</p>
         </a>
-        <a href="#whoami">
+        <a onclick="goToSection" href="#whoami">
           <p>whoami</p>
         </a>
       </div>
       <div class="right-section">
-        <a href="#profiles">
+        <a onclick="goToSection" href="#profiles">
           <p>Profiles</p>
         </a>
         <a href="#achievements">
@@ -67,6 +68,10 @@
     <div class="home-right">
       <img src="images/my-image.png" alt="">
     </div>
+
+  </div>
+
+  <div id="profiles" style="height: 1000px;">
 
   </div>
 
