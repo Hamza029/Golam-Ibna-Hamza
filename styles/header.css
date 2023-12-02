@@ -41,6 +41,7 @@
 }
 
 .right-section > a:hover, .left-section > a:hover {
+  color: #fff;
   text-shadow: 0 0 12px #c7eceea9, 0 0 2px #000;
   transform: scaleX(1.1);
 }
