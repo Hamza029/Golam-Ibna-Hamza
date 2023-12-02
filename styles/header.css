@@ -3,14 +3,14 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #130f40;
+  background-color: #131418;
   align-items: stretch;
   height: 50px;
   width: 100%;
@@ -42,4 +42,5 @@
 
 .right-section > a:hover, .left-section > a:hover {
   text-shadow: 0 0 12px #c7eceea9, 0 0 2px #000;
+  transform: scaleX(1.1);
 }
